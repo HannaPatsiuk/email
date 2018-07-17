@@ -64,7 +64,7 @@ gulp.task('watch', function(){
 });
 
 gulp.task('clean', function(){
-	return del('./build');	
+	return del('./ready');	
 });
 
 gulp.task('build', gulp.parallel('stylus', 'pug'));
